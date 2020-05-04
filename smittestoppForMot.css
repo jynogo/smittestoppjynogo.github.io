@@ -1,0 +1,215 @@
+body {
+    background-image: url(bilder/earth2.jpg);
+    background-size: cover;
+}
+
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.24);
+}
+
+#forOS {
+    background-color: darkseagreen;
+    height: 60px;
+    width: 565px;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    left: 70px;
+    top: 100px;
+}
+
+#motOS {
+    background-color: darkseagreen;
+    height: 60px;
+    width: 565px;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    right: 70px;
+    top: 100px;
+}
+
+.tekstFor {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#for1 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 190px;
+}
+
+#for2 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 250px;   
+}
+
+#for3 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 310px; 
+}
+
+#for4 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 370px;  
+}
+
+#for5 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 430px;  
+}
+
+#for6 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 490px;  
+}
+
+.tekstMot {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#mot1 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    right: 70px;
+    top: 190px;  
+}
+
+#mot2 {
+    background-color: darkseagreen;
+    height:40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    right: 70px;
+    top: 250px; 
+}
+
+#mot3 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    right: 70px;
+    top: 310px; 
+}
+
+#mot4 {
+    background-color: darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    right: 70px;
+    top: 370px; 
+}
+
+#mot5 {
+    background-color:darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    right: 70px;
+    top: 430px; 
+}
+
+#mot6 {
+    background-color:darkseagreen;
+    height: 40px;
+    width: 565px;
+    font-family: monospace;
+    text-align: center;
+    position: absolute;
+    right: 70px;
+    top: 490px; 
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+}
+
+.fixed {
+    position: fixed;
+    right: 450px;
+    bottom: 560px;
+}
+
+a {
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+li {
+    text-align: center;
+    display: inline;
+}
